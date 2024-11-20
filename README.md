@@ -51,17 +51,17 @@ Para encapsulamento, uma caixa com medidas de 100x80x40mm pode ser impressa, com
 
 ## Interfaces, Protocolos e Módulos de Comunicação
 
-	1.	Interface de Comunicação com o Sensor
-	  • Comunicação analógica através do pino A0 do NodeMCU.
+	1. Interface de Comunicação com o Sensor
+	  	• Comunicação analógica através do pino A0 do NodeMCU.
    
-	2.	Protocolo MQTT
-  	•	Broker: Adafruit IO
-  	•	Porta: 1883
-  	•	Tópico: usuario/feeds/nome-feed
-  	•	Dados enviados: Valor analógico detectado pelo MQ-7.
+	2. Protocolo MQTT
+	  	• Broker: Adafruit IO
+	  	• Porta: 1883
+	  	• Tópico: usuario/feeds/nome-feed
+	  	• Dados enviados: Valor analógico detectado pelo MQ-7.
    
-	3.	Protocolo TCP/IP
-  	•	Comunicação entre o NodeMCU e o broker MQTT utiliza o protocolo TCP/IP para envio de mensagens.
+	3. Protocolo TCP/IP
+  		• Comunicação entre o NodeMCU e o broker MQTT utiliza o protocolo TCP/IP para envio de mensagens.
    
-	4.	Conexão Wi-Fi
-	  •	SSID e senha configuráveis diretamente no código.
+	4. Conexão Wi-Fi
+	  • SSID e senha configuráveis diretamente no código.
