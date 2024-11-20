@@ -16,11 +16,11 @@ O software foi desenvolvido utilizando a IDE do Arduino e pode ser encontrado no
 
 Estrutura do Código
 
-	•	setup(): Configura os pinos, inicializa o monitor serial, conecta ao Wi-Fi e ao broker MQTT.
-	•	loop(): Lê o sensor, controla o buzzer e envia os dados ao Adafruit IO.
-	•	Funções auxiliares:
-	•	connectWiFi(): Conecta à rede Wi-Fi.
-	•	connectMQTT(): Garante a conexão estável com o broker MQTT.
+	• setup(): Configura os pinos, inicializa o monitor serial, conecta ao Wi-Fi e ao broker MQTT.
+	• loop(): Lê o sensor, controla o buzzer e envia os dados ao Adafruit IO.
+	• Funções auxiliares:
+	• connectWiFi(): Conecta à rede Wi-Fi.
+	• connectMQTT(): Garante a conexão estável com o broker MQTT.
 
 	Observação: O código contém comentários detalhados para facilitar a reprodução.
 
@@ -64,4 +64,4 @@ Para encapsulamento, uma caixa com medidas de 100x80x40mm pode ser impressa, com
   		• Comunicação entre o NodeMCU e o broker MQTT utiliza o protocolo TCP/IP para envio de mensagens.
    
 	4. Conexão Wi-Fi
-	  • SSID e senha configuráveis diretamente no código.
+	  	• SSID e senha configuráveis diretamente no código.
