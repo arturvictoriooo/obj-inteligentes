@@ -28,23 +28,23 @@ Estrutura do Código
 
 Plataformas de Desenvolvimento
 
-	•	NodeMCU ESP8266 (ESP-12): Controlador principal e módulo de comunicação Wi-Fi.
+	• NodeMCU ESP8266 (ESP-12): Controlador principal e módulo de comunicação Wi-Fi.
 
 Sensores
 
-	•	MQ-7: Sensor para detecção de monóxido de carbono.
-	•	Tensão operacional: 5V
-	•	Saída: Analógica
+	• MQ-7: Sensor para detecção de monóxido de carbono.
+	• Tensão operacional: 5V
+	• Saída: Analógica
 
 Atuadores
 
-	•	Buzzer Passivo (3 pinos):
-	•	Tensão operacional: 3.3V
-	•	Som de 1 kHz para alertas.
+	• Buzzer Passivo (3 pinos):
+	• Tensão operacional: 3.3V
+	• Som de 1 kHz para alertas.
 
 Outros Componentes
 
-	•	Protoboard, jumpers e fonte de alimentação USB.
+	• Protoboard, jumpers e fonte de alimentação USB.
 
 Impressão 3D (Opcional):
 Para encapsulamento, uma caixa com medidas de 100x80x40mm pode ser impressa, com aberturas para ventilação do sensor MQ-7. Arquivos .stl estão disponíveis no repositório.
