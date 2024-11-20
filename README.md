@@ -49,7 +49,7 @@ Outros Componentes
 Impressão 3D (Opcional):
 Para encapsulamento, uma caixa com medidas de 100x80x40mm pode ser impressa, com aberturas para ventilação do sensor MQ-7. Arquivos .stl estão disponíveis no repositório.
 
-Interfaces, Protocolos e Módulos de Comunicação
+## Interfaces, Protocolos e Módulos de Comunicação
 
 	1.	Interface de Comunicação com o Sensor
 	  • Comunicação analógica através do pino A0 do NodeMCU.
